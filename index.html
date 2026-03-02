@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Tahfidz Premium | Full Cloud Sync v2.9 (Super Ultra Paten)</title>
+    <title>E-Tahfidz Premium </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.0/lucide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -39,7 +39,7 @@
                 <div><label class="block text-xs font-bold text-emerald-900 mb-2 uppercase tracking-widest">Password</label><input type="password" id="password" class="w-full px-5 py-3 bg-gray-50 border rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" required></div>
                 <button type="submit" id="btn-login" class="w-full btn-gold text-white font-bold py-4 rounded-xl shadow-lg mt-4 uppercase tracking-widest">Log Masuk & Sinkron</button>
             </form>
-            <p class="mt-4 text-[10px] text-gray-400 uppercase tracking-widest">Managed by Adit System</p>
+            <p class="mt-4 text-[10px] text-gray-400 uppercase tracking-widest">Managed by Masterpos80 System</p>
         </div>
     </div>
 
@@ -240,7 +240,7 @@
                     document.getElementById('login-error-msg').classList.remove('hidden');
                 }
             } catch (error) { alert("Gagal sinkronisasi. Cek Apps Script!"); }
-            finally { b.disabled = false; b.innerText = "Log Masuk & Sinkron"; }
+            finally { b.disabled = false; b.innerText = "Login"; }
         });
 
         function onLoginSuccess() {
@@ -522,4 +522,5 @@
         window.onload = () => { initApp(); };
     </script>
 </body>
+
 </html>
